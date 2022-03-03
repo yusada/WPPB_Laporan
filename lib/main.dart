@@ -35,7 +35,21 @@ class DetailScreen extends StatelessWidget {
                     fontSize: 30.0,
                     fontWeight: FontWeight.bold,
                   ),
-                )),
+                )), //Judul
+            Container(
+              margin: const EdgeInsets.symmetric(vertical: 16.0),
+              child: Row(
+                mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+                children: <Widget>[
+                  Column(
+                    children: const <Widget>[
+                      Icon(Icons.calendar_today),
+                      Text('Open Everyday'),
+                    ],
+                  ),
+                ],
+              ),
+            ),
             Container(
               padding: const EdgeInsets.all(16.0),
               child: const Text(
@@ -43,7 +57,7 @@ class DetailScreen extends StatelessWidget {
                 textAlign: TextAlign.center,
                 style: TextStyle(fontSize: 16.0),
               ),
-            )
+            ) //Deskripsi
           ],
         ),
       ),
