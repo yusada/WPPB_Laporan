@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:wppb/detail_screen.dart';
+import 'package:wppb/main_screen.dart';
 
 void main() {
   runApp(const MyApp());
@@ -16,7 +17,7 @@ class MyApp extends StatelessWidget {
         fontFamily: 'Poppins',
         primarySwatch: Colors.blue,
       ),
-      home: const DetailScreen(),
+      home: const MainScreen(),
     );
   }
 }
