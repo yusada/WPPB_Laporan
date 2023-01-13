@@ -1,4 +1,4 @@
-# wppb
+# Flutter - Workshop Pemrograman Perangkat Bergerak
 
 A new Flutter project.
 
